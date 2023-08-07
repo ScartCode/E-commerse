@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+  background-color: #465b64;
+  padding: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 200;
+}
+
+.categorias-izquierda a,
+.categorias-derecha a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+}
+.categorias-izquierda {
+
+  padding-left: 10%;
+}
+.categorias-derecha a {
+    padding-right: 20px;
+  border-right: solid 0.5px tan;
+}
+.categorias-derecha {
+
+  padding-right: 10%;
+
+}
+
+.cabecero_language::after{
+
+  content: "\f0d7";
+  margin: 10px;
+  font-family: FontAwesome;
+}
